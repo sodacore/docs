@@ -5,7 +5,7 @@ export default defineConfig({
 	title: 'Docs',
 	titleTemplate: 'Sodacore',
 	lang: 'en-GB',
-	description: 'Sodacore framework documentation site.',
+	description: 'Modern, lightweight, and extendable framework for Node.',
 	head: [
 		[ 'link', { rel: 'shortcut icon', type: 'image/jpg', href: '/logo.png' } ],
 	],

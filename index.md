@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "Sodacore Docs"
-  text: "Sodacore framework documentation site."
-  tagline: My great project tagline
+  text: "Modern, fast & extendable."
+  tagline: Modern, lightweight and extendable framework for Node, written in TypeScript.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /docs/guide/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API Reference
+      link: /docs/api/index
 
 features:
   - title: Controller Design
