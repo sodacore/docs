@@ -40,26 +40,32 @@ export default defineConfig({
 					{ text: 'Releases', link: '/about/releases' },
 					{ text: 'Team', link: '/about/team' },
 					{ text: 'Community Guide', link: '/about/community' },
+					{ text: 'Code of Conduct', link: '/about/code-of-conduct' },
 					{ text: 'FAQ', link: '/about/faq' },
 				],
 			},
 		],
 
 		// ------------ SIDEBAR ------------
-		// sidebar: [
-		// 	{
-		// 		text: 'Examples',
-		// 		items: [
-		// 			{ text: 'Markdown Examples', link: '/markdown-examples' },
-		// 			{ text: 'Runtime API Examples', link: '/api-examples' },
-		// 		],
-		// 	},
-		// ],
+		sidebar: [
+			{
+				text: 'About',
+				collapsed: true,
+				items: [
+					{ text: 'Introduction', link: '/about/introduction' },
+					{ text: 'Releases', link: '/about/releases' },
+					{ text: 'Team', link: '/about/team' },
+					{ text: 'Community Guide', link: '/about/community' },
+					{ text: 'Code of Conduct', link: '/about/code-of-conduct' },
+					{ text: 'FAQ', link: '/about/faq' },
+				],
+			},
+		],
 
 		// ------------ SOCIAL ------------
 		socialLinks: [
-			{ icon: 'github', link: 'https://github.com/sodacore/docs' },
-			{ icon: 'discord', link: 'https://discord.com/sodacore' },
+			{ icon: 'github', link: 'https://github.com/sodacore' },
+			{ icon: 'discord', link: 'https://discord.gg/CgumPyVr6X' },
 		],
 
 		footer: {
