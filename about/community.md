@@ -21,4 +21,6 @@ We have a [Code of Conduct](/about/code-of-conduct) that we expect all members o
 
 ## Get Support
 
-The best place for support is the [Sodacore Discord](https://discord.gg/CgumPyVr6X).
+- The best place to get support is our [Discord](https://discord.gg/CgumPyVr6X).
+- Report bugs in the [Project Issues](https://github.com/sodacore/core/issues) section.
+- You can raise questions, and ideas in both the Discord or our [Github Discussions](https://github.com/sodacore/core/discussions/categories/q-a).
