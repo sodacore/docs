@@ -1,3 +1,0 @@
-# @sodacore/framework
-
-🚧 WIP
