@@ -1,3 +1,0 @@
-# @sodacore/database
-
-🚧 WIP

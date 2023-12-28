@@ -27,10 +27,11 @@ export default defineConfig({
 			{
 				text: 'Packages',
 				items: [
-					{ text: 'Framework', link: '/packages/framework/index' },
+					{ text: 'Overview', link: '/packages/overview/index' },
+					{ text: 'Core', link: '/packages/core/index' },
 					{ text: 'HTTP', link: '/packages/http/index' },
 					{ text: 'WebSocket', link: '/packages/ws/index' },
-					{ text: 'Database', link: '/packages/database/index' },
+					{ text: 'ORM', link: '/packages/orm/index' },
 				],
 			},
 			{
@@ -48,6 +49,54 @@ export default defineConfig({
 
 		// ------------ SIDEBAR ------------
 		sidebar: [
+			{
+				text: 'Packages',
+				collapsed: true,
+				items: [
+					{
+						text: 'Core',
+						link: '/packages/core/index',
+						items: [
+							{ text: 'Getting Started', link: '/packages/core/index' },
+							{ text: 'Installation', link: '/packages/core/setup' },
+							{ text: 'Threads', link: '/packages/core/threads' },
+							{ text: 'Fibres', link: '/packages/core/fibres' },
+							{ text: 'Broker', link: '/packages/core/broker' },
+						],
+					},
+					{
+						text: 'HTTP',
+						link: '/packages/http/index',
+					},
+					{
+						text: 'WebSocket',
+						link: '/packages/ws/index',
+					},
+					{
+						text: 'ORM',
+						link: '/packages/orm/index',
+						items: [
+							{ text: 'Getting Started', link: '/packages/orm/index' },
+							{ text: 'Entities', link: '/packages/orm/entity' },
+							{ text: 'Repositories', link: '/packages/orm/repository' },
+							{ text: 'Properties', link: '/packages/orm/property' },
+							{ text: 'Validators', link: '/packages/orm/validators' },
+						],
+					},
+					{
+						text: 'Prisma',
+						link: '/packages/prisma/index',
+					},
+					{
+						text: 'Discord',
+						link: '/packages/discord/index',
+					},
+					{
+						text: 'Twitch',
+						link: '/packages/twitch/index',
+					},
+				],
+			},
 			{
 				text: 'About',
 				collapsed: true,

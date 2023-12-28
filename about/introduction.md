@@ -19,7 +19,7 @@ The framework utilises built-in autowiring, dependency injection, and a plugin s
 - 🧊 Autowiring by default
 - 🧩 Dependency injection
 - 🧪 Plugin system
-- 📦 Core maintained plugins, i.e. http, websocket, database, etc.
+- 📦 Core maintained plugins, i.e. http, websocket, orm, prisma, etc.
 - 📝 Built-in logging
 - 📚 Built-in documentation
 - 🖥️ CLI for tooling

@@ -24,7 +24,7 @@ Sodacore is a great framework for building complex applications, with a lot of f
 - 🧊 Autowiring by default
 - 🧩 Dependency injection
 - 🧪 Plugin system
-- 📦 Core maintained plugins, i.e. http, websocket, database, etc.
+- 📦 Core maintained plugins, i.e. http, websocket, orm, prisma, etc.
 - 📝 Built-in logging
 - 📚 Built-in documentation
 - 🖥️ CLI for tooling
@@ -33,17 +33,7 @@ Sodacore is a great framework for building complex applications, with a lot of f
 
 Sodacore is a collection of packages, that are all maintained under the same repository, and are all published under the `@sodacore` namespace.
 
-The core packages are:
-
-| Package | Description |
-| - | - |
-| **Core** | The core package that provides the core functionality of the framework, including; autowiring, dependency injection, plugin system, and more. |
-| **Http** | The http package provides a built-in http server, with a controller system, and a built-in router. |
-| **WebSocket** | The websocket package provides a websocket server that can integrate to the HTTP package or standalone to create controller based WebSocket applications with it's own router. |
-| **Database** | The database package provides a Prisma ORM database client, with an injected system for access in your controllers. |
-| **CLI** | The CLI package provides a CLI tool for scaffolding out new projects, running commands, and finally for interacting with existing running applications, using a GUI or command line. |
-
-_And more to come!_
+You can find our list of packages [here](/packages/overview/index).
 
 ## How do I get started?
 
